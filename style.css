@@ -1,0 +1,508 @@
+*{
+    font-family: Arial, sans-serif;
+      margin:0px;
+      padding:0px;
+      box-sizing: border-box;
+  }
+  .header{
+height:100vh;
+background-color: #333;
+}
+#sectionone{
+height:100vh;
+}
+.intro{
+/* border:2px solid red; */
+width:35%;
+padding:10px;
+height:40%;
+}
+.herosectionname{
+color:white;
+}
+.intro p{
+line-height: 1.5;
+/* color:#FFFFFF;
+*/
+color:#828282;
+}
+.intro button{
+height:50px;
+width:200px;
+margin-top:100px;
+}
+.sectiononebutton{
+background-color:#7ADDEB;
+color:#1A1A1A;
+height:35px;
+margin-right:20px;
+width:120px;
+border-radius:8px;
+border-color: transparent;
+margin-top:20px;
+}
+#learnmorebutton{
+background-color: transparent;
+border-color:#7ADDEB;
+color:#7ADDEB;
+}
+
+  .navbar-logo img{
+    height:50px;
+  }
+.navbar {
+background-color: #333;
+padding: 10px;
+height:70px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom:50px;
+}
+
+.navbar-logo img {
+max-width: 100px; /* Adjust the size of the logo */
+}
+
+.navbar-links {
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+}
+
+.navbar-links li {
+margin-right: 15px;
+}
+
+.navbar-links li:last-child {
+margin-right: 0;
+}
+
+.navbar-links a {
+color: white;
+text-decoration: none;
+}
+.navbar-toggle {
+display: none; /* Hide the toggle button by default */
+cursor: pointer;
+color: white;
+font-size: 20px;
+margin-right: 10px; /* Adjust margin as needed */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 500px) {
+.header{
+max-width:200%;
+height:100%; 
+/* border:2px solid red; */
+margin-bottom:0px;
+/* height:200vh;  */
+}
+#sectionone{
+height:100%;
+/* height:200vh; */
+}
+.navbar {
+
+}
+
+.navbar-links {
+margin-top: 10px;
+flex-direction: column;
+align-items: flex-end;
+display:none;
+}
+
+.navbar-links li {
+margin-right: 0;
+margin-bottom: 10px;
+}
+.navbar-links.active {
+display: flex; /* Display navbar links when active */
+} 
+
+.navbar-toggle {
+display: block; 
+/* Display the toggle button on smaller screens  */
+}
+.intro{
+width:100%;
+height:100vh;
+background-color: #333;
+/* border:2px solid yellow; */
+}
+#cvbutton{
+/* width:70px; */
+/* border:2px solid red;  */
+/* width:45%; */
+display:inline-block;
+margin-top:15px;
+/* padding-left:50%; */
+/* height:100px; */
+}
+#learnmorebutton{
+/* border:2px solid red; */
+/* width:45%; */
+/* display:inline-block; */
+/* margin-top:0px; */
+margin-top:15px; 
+
+/* margin:0 auto; */
+}  
+.buttons{
+/* border:2px solid green; */
+display:flex;
+flex-direction:column;
+/* justify-content:center; */
+align-items: center;
+padding-left:15px;
+/* padding-left:100px; */
+/* padd */
+}
+.sectiononebutton{
+/* margin:0px auto;
+*/
+/* border:2px solid pink; */
+}
+
+
+}   
+
+
+
+
+#section2{
+background-color: #1A1A1A;
+height:auto;
+width:100%;
+/* border:2px solid red; */
+
+}
+
+
+.myworkheading h1,p{
+color:white;
+text-align:center;
+margin-bottom:25px;
+}
+.projectslinks{
+display: inline-grid;
+
+grid-template-columns: 3fr 2fr; 
+
+/* grid-template-rows: 500px  500px; */
+/* justify-items: space-around; */
+grid-gap:50px;
+margin-left: 100px;
+}
+.card{
+/* padding-left:80px; */
+/* border:2px solid red; */
+width:400px;
+height:500px;
+
+}
+
+
+.card-header {
+/* border:2px solid red; */
+display:flex;
+justify-content:space-around;
+height:20%;
+
+}
+.project-name{
+color:white;
+}
+.project-numbers{
+color:#7ADDEB;
+}
+
+.project-picture img{
+width:100%;
+/* display:block; */
+height:auto;
+/* margin-bottom:0px; */
+
+}
+
+#skillssection{
+height:100vh;
+background-color: #292929;
+}
+
+#skillssection h1{
+text-align:center;
+color:#FFFFFF;
+margin-bottom:15px;
+}
+#skillssection p{
+color:#FFFFFF;
+text-align: center;
+}
+.skills li{
+display:flex;
+justify-content:center;
+
+}
+.skills li, a{
+color:white;
+margin-bottom:10px;
+text-decoration: none;
+
+}
+
+.aboutme{
+width:100%;
+height:80vh;
+/* border:2px solid red; */
+background-color: #292929;
+display:flex;
+justify-content:space-around;
+align-items:start;
+}
+.aboutme img{
+width: 200px;
+height:200px;
+/* border:2px solid green; */
+margin-top:35px;
+}
+
+
+
+
+
+
+#aboutme{
+width:60%;
+height:25%;
+/* border:2px solid green; */
+margin-top:65px;
+
+}
+#aboutme h1{
+margin-bottom:20px;
+color:#FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+#contact-form{
+width:100%;
+/* border:2px solid red; */
+height:100vh;
+background-color: #292929;
+/* display: inline-flex; */
+/* justify-content: center; */
+}
+#contact-form h1{
+text-align:center;
+color:#ffffff;
+margin-bottom:15px;
+}
+#contact-form p{
+/* text-align:center; */
+text-align:center;
+color:#555;
+margin-bottom:25px;
+}
+
+.container{
+/* border:2px solid green; */
+width:60%;
+height:50%;
+margin:0 auto;
+
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"]{
+padding:10px;
+width:40%;
+border-radius:6px;
+border-color:transparent;
+/* background-color:  #1A1A1A; */
+/* background-color: transparent; */
+/* display:inline-flex; */
+/* justify-content: space-around; */
+
+}
+.form-group{
+/* border:2px solid red; */
+display:flex;
+justify-content:space-around;
+margin-bottom:25px;
+}
+input[type="text"]{
+/* margin:10px; */
+}
+textarea{
+width:90%;
+height:90px;
+border-radius:6px;
+border-color:transparent;
+}
+.form-group button{
+width:17%;
+padding:10px;
+background-color: #7ADDEB;
+border-color:transparent;
+border-radius:6px;
+}
+.links{
+/* border:2px solid red; */
+width:100%;
+height:220px;
+display:inline-flex; 
+justify-content:space-around; 
+align-items: center; 
+/* margin:0px auto;  */
+background-color: #1A1A1A;
+
+}
+.containerboxx{
+/* height:450px; */
+width:250px;
+/* border:2px solid green; */
+display:inline-flex; 
+justify-content:space-around; 
+align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+/* media query for project section */
+
+@media only screen and (max-width: 500px) {
+.projectslinks {
+display: flex;
+flex-direction: column;
+margin-left: 0px;
+}
+#section2{
+/* border:2px solid red; */
+width:100%;
+/* height:400vh; */
+height:auto;
+}
+.projectslinks{
+padding-left:20px;
+}
+.myworkheading h1,p{
+text-align:center;
+color:#FFFFFF;
+
+}
+
+.myworkheading h1{
+margin-bottom:10px;
+}
+.card{
+margin-top:10px;
+border:0.5px cf1414414;
+background-color: #333;
+/* width:0%; */
+/* display:flex; */
+height:500px;
+margin-bottom:55px;
+/* padding:10%; */
+/* display:block; */
+width: 90%;/* Set the width to 100% for single column layout */
+margin-bottom: 20px; 
+/* padding */
+}
+.card-header{
+/* border:2px solid white; */
+display:flex;
+justify-content:space-around;
+align-items:center;
+height:60px;
+color:#FFFFFF;
+
+}
+.card-body p{
+line-height:25px;
+margin-bottom:20px;
+}
+
+.project-picture img{
+width:100%;
+display:block;
+height:auto;
+/* margin-bottom:0px; */
+
+}
+
+#section3{
+border:2px solid black;
+width:100%;
+height:100vh;
+}
+#section3{
+background-color: #333;
+padding:10px;
+}
+#aboutme{
+width:100%;
+height:auto;
+}
+#aboutme h1{
+text-align:center;
+color:#FFFFFF;
+}
+#aboutme p{
+line-height: 1.5;
+margin-top:15px;
+text-align: center;
+}
+.aboutme{
+background-color: #292929;
+}
+.aboutme img{
+display:none;
+}
+
+
+
+
+}
+
+
+/* CSS for mobile devices */
+@media only screen and (max-width: 500px) {
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group textarea {
+width: 100%;
+margin-right:15px;
+margin-bottom: 10px; /* Add some spacing between input fields */
+}
+.form-group button{
+width:50%;
+}
+}
+
+
+
+
+
+
+
+
+
